@@ -2,7 +2,7 @@
 $host = 'localhost';
 $dbname = 'reloga';
 $user = 'root';
-$pass = '#pentester#';
+$pass = '';
 
 try{
     $pdo = new PDO('mysql:host='.$host.';dbname='.$dbname, $user, $pass);
